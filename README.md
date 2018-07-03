@@ -9,5 +9,5 @@ example loopdownload:it has two parameters.the first is video website and the se
 example allrate:it has one parameter as the output of the download speed data and it will calculate all the the download speed 
                 in the directory by measuring the size of every document
         python allrate.py downloaddata.txt
-example clean:it has one parameter for some special directory.usually used when debuging
+example clean_specially:it has one parameter .usually used when debuging and delete the .download document
         python clean.py ./tmp/bb
