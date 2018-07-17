@@ -31,8 +31,8 @@ if __name__ == '__main__':
     workdir = os.path.join(os.getcwd(),"./tmp") #can be changed to input by keyboard
     presize = [0 for x in range(0, 20)]
     nowsize = [0 for x in range(0, 20)]     #max<20
+    count = 0
     for document in os.listdir(workdir):  
-        count = 0
         presize[count] = dirsize(os.path.join( workdir , document))
         count = count + 1
     try:
